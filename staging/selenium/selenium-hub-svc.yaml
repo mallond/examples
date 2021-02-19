@@ -14,4 +14,4 @@ spec:
   type: NodePort
   sessionAffinity: None
   externalIPs:
-    - 40.112.214.127
+    - 10.96.126.83
