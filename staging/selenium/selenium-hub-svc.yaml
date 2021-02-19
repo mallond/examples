@@ -13,3 +13,5 @@ spec:
     app: selenium-hub
   type: NodePort
   sessionAffinity: None
+  externalIPs:
+    - 40.112.214.127
