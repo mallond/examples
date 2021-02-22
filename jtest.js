@@ -1,5 +1,5 @@
 const { Builder, Capabilities, By, Key, until} = require("selenium-webdriver");
-var capabilities = Capabilities.firefox();
+var capabilities = Capabilities.chrome();
 (async function helloSelenium() {
     let driver = new Builder()
         .usingServer("http://10.96.126.83:4444/wd/hub")   
